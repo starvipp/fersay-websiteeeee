@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FERSAY - Calzado Personalizado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a FERSAY</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes Somos</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#personaliza">Personaliza tu Calzado</a></li>
+                <li><a href="https://wa.me/51975071283">Contacto WhatsApp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a FERSAY</h2>
+        <p>Personaliza tus zapatos, sandalias o botines de cuero para obtener el calzado perfecto para ti. ¡Artesanía y estilo en cada paso!</p>
+        <a href="#personaliza" class="btn-inicio">Comenzar Ahora</a>
+    </section>
+
+    <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>FERSAY es una marca dedicada al diseño y fabricación de calzado de cuero para mujeres. Ofrecemos productos exclusivos y hechos a mano, adaptados a tus necesidades y estilo único.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <p>Explora nuestros modelos base y personaliza tu calzado a tu gusto:</p>
+        <div class="producto">
+            <img src="botines_mujer.jpg" alt="Botines de Mujer" class="producto-imagen">
+            <h3>Botines de Cuero</h3>
+            <p>$129.00</p>
+            <button>Personalizar Botines</button>
+        </div>
+        <div class="producto">
+            <img src="zapatos_mujer.jpg" alt="Zapatos de Mujer" class="producto-imagen">
+            <h3>Zapatos Elegantes</h3>
+            <p>$109.00</p>
+            <button>Personalizar Zapatos</button>
+        </div>
+    </section>
+
+    <section id="personaliza">
+        <h2>Personaliza tu Calzado</h2>
+        <form action="#">
+            <label for="modelo">Elige el Modelo:</label>
+            <select id="modelo">
+                <option value="botines">Botines de Cuero</option>
+                <option value="zapatos">Zapatos Elegantes</option>
+            </select>
+            <br><br>
+
+            <label for="color">Elige el Color:</label>
+            <input type="color" id="color" name="color">
+            <br><br>
+
+            <label for="taco">Elige el Tipo de Taco:</label>
+            <select id="taco">
+                <option value="bajo">Bajo</option>
+                <option value="medio">Medio</option>
+                <option value="alto">Alto</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Personalizar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 FERSAY | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
